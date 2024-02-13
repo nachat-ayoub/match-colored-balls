@@ -1,6 +1,4 @@
-// create a colored balls matching game we have (red, green, blue, yellow) colors and 7 balls per color, and the game board is 7 balls max per column and 5 column which mean one column will be empty at the start and at the end after completing the game successfully, the player can move one ball at a time
-
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ConfettiExplosion from 'react-confetti-explosion';
 
 function Game() {
